@@ -30,7 +30,7 @@ int main()
     tetromino[3].append(L"..X.");
     tetromino[3].append(L"..X.");
     
-
+    // rotation is next (3:31)
 
 
     return 0;

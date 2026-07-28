@@ -3,6 +3,10 @@ using namespace std;
 
 
 wstring tetromino[7]; // game space (array of 7 (independent wstring that can be assigned) )
+int nFieldWidth = 12;
+int nFieldHeight = 18;
+unsigned char *pField = nullptr; 
+
 
 // Rotation of blocks
 int Rotate(int px, int py, int r)
